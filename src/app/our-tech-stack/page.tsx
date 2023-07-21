@@ -83,7 +83,7 @@ export default function OurTechStackPage() {
           <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Conclusion
           </h2>
-          <p>
+          <p className="mt-6">
             At Pixelleum, our tech stack comprising Next.js, React, Tailwind
             CSS, Node.js, and SQL fuels our passion for crafting custom websites
             that surpass expectations. We believe that combining these
