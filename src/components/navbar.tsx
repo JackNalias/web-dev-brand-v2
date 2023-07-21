@@ -23,7 +23,7 @@ const Navbar: FC<Props> = ({ themeBtn, logo }) => {
   return (
     <header className="absolute inset-x-0 top-0 z-50">
       <nav
-        className="flex items-center justify-between p-6 lg:px-8 text-gray-900 dark:text-white dark:text-white"
+        className="flex items-center justify-between p-6 lg:px-8 text-gray-900 dark:text-white"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
