@@ -91,24 +91,24 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <div>
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">
+              <h2 className="text-base font-semibold leading-7 text-indigo-600 dark:text-sky-400">
                 Everything you need
               </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
                 Crafted for Impact
               </p>
-              <p className="mt-6 text-base leading-7 text-gray-600">
+              <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-300">
                 Elevate your digital vision with our bespoke websites&apos;
                 exceptional features.
               </p>
             </div>
 
-            <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
+            <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 dark:text-gray-300 sm:grid-cols-2 lg:gap-y-16">
               {features.map((feature) => (
                 <div key={feature.name} className="relative pl-9">
-                  <dt className="font-semibold text-gray-900">
+                  <dt className="font-semibold text-gray-900 dark:text-white">
                     <CheckIcon
-                      className="absolute left-0 top-1 h-5 w-5 text-indigo-500"
+                      className="absolute left-0 top-1 h-5 w-5 text-indigo-500 dark:text-emerald-500"
                       aria-hidden="true"
                     />
                     {feature.name}
@@ -126,13 +126,13 @@ export default function Home() {
           className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col md:items-center"
           id="our-process"
         >
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">
+          <h2 className="text-base font-semibold leading-7 text-indigo-600 dark:text-sky-400">
             From Vision to Reality
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
             Our Web Development Process
           </p>
-          <p className="mt-4 text-base leading-7 text-gray-600">
+          <p className="mt-4 text-base leading-7 text-gray-600 dark:text-gray-300">
             Elevate your digital vision with our bespoke websites&apos;
             exceptional features.
           </p>
@@ -164,10 +164,10 @@ export default function Home() {
                         </span>
                       </span>
                       <span className="ml-4 flex min-w-0 flex-col">
-                        <span className="font-semibold text-gray-900 ">
+                        <span className="font-semibold text-gray-900 dark:text-white">
                           {step.name}
                         </span>
-                        <span className=" text-gray-500 text-base">
+                        <span className=" text-gray-600 dark:text-gray-300 text-base">
                           {step.description}
                         </span>
                       </span>

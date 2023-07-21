@@ -21,14 +21,14 @@ export default function Footer() {
             <div key={item.name} className="pb-6">
               <a
                 href={item.href}
-                className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                className="text-sm leading-6 text-gray-600  hover:text-gray-900 dark:text-white"
               >
                 {item.name}
               </a>
             </div>
           ))}
         </nav>
-        <p className="mt-10 text-center text-xs leading-5 text-gray-500">
+        <p className="mt-10 text-center text-xs leading-5 text-gray-600 dark:text-white">
           &copy; 2020 Your Company, Inc. All rights reserved.
         </p>
       </div>

@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import Footer from "@/components/footer";
 import ThemeBtn from "@/components/theme-btn";
 import { cookies } from "next/dist/client/components/headers";
+import Logo from "@/components/logo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,9 +28,7 @@ export default function RootLayout({
           " bg-gradient-to-r from-rose-100 to-teal-100 dark:bg-gradient-to-b dark:from-gray-900 dark:to-gray-600 dark:text-white  text-gray-900"
         }
       >
-        <Navbar>
-          <ThemeBtn />
-        </Navbar>
+        <Navbar themeBtn={<ThemeBtn />} logo={<Logo />} />
         {children}
         <Footer />
       </body>

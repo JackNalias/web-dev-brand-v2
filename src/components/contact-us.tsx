@@ -11,17 +11,17 @@ export default function ContactUs() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
               Get in touch
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
               Ready to turn your dream website into reality? Whether you have a
               specific project in mind or need guidance on the best approach for
               your digital presence, our expert team is here to help. Simply
               fill out the form, and we&apos;ll be in touch shortly to discuss
               how we can elevate your online success together.
             </p>
-            <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
+            <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600 dark:text-gray-300">
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Email</span>
@@ -32,7 +32,7 @@ export default function ContactUs() {
                 </dt>
                 <dd>
                   <a
-                    className="hover:text-gray-900"
+                    className="hover:text-gray-900 dark:text-white"
                     href="mailto:hello@example.com"
                   >
                     pixelleum@example.com
@@ -51,7 +51,7 @@ export default function ContactUs() {
               <div>
                 <label
                   htmlFor="first-name"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-gray-900 dark:text-white"
                 >
                   First name
                 </label>
@@ -62,14 +62,14 @@ export default function ContactUs() {
                     name="first-name"
                     id="first-name"
                     autoComplete="given-name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div>
                 <label
                   htmlFor="last-name"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-gray-900 dark:text-white"
                 >
                   Last name
                 </label>
@@ -79,14 +79,14 @@ export default function ContactUs() {
                     name="last-name"
                     id="last-name"
                     autoComplete="family-name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div className="sm:col-span-2">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-gray-900 dark:text-white"
                 >
                   Email
                 </label>
@@ -97,14 +97,14 @@ export default function ContactUs() {
                     name="email"
                     id="email"
                     autoComplete="email"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div className="sm:col-span-2">
                 <label
                   htmlFor="message"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-gray-900 dark:text-white"
                 >
                   Message
                 </label>
@@ -114,7 +114,7 @@ export default function ContactUs() {
                     id="message"
                     required
                     rows={4}
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 dark:text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     defaultValue={""}
                   />
                 </div>
