@@ -1,11 +1,12 @@
+import Link from "next/link";
+
 const navigation = {
   main: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Accessibility", href: "#" },
-    { name: "Partners", href: "#" },
+    { name: "Home", href: "/" },
+    { name: "About Us", href: "/about-us" },
+    { name: "Contact Us", href: "/#contact-us" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Terms of Service", href: "/terms-of-service" },
   ],
 };
 
@@ -19,17 +20,17 @@ export default function Footer() {
         >
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
-              <a
+              <Link
                 href={item.href}
                 className="text-sm leading-6 text-gray-600  hover:text-gray-900 dark:text-white"
               >
                 {item.name}
-              </a>
+              </Link>
             </div>
           ))}
         </nav>
         <p className="mt-10 text-center text-xs leading-5 text-gray-600 dark:text-white">
-          &copy; 2020 Your Company, Inc. All rights reserved.
+          &copy; 2023 Pixelleum, Inc. All rights reserved.
         </p>
       </div>
     </footer>
