@@ -1,9 +1,10 @@
 "use client";
 
 import { Dialog } from "@headlessui/react";
-import { Bars3Icon, SunIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { FC, PropsWithChildren, ReactNode, useState } from "react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { FC, ReactNode, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -19,6 +20,12 @@ interface Props {
 
 const Navbar: FC<Props> = ({ themeBtn, logo }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const router = useRouter();
+
+  const onNavLinkClick = (href: string) => {
+    setMobileMenuOpen(false);
+    router.push(href);
+  };
 
   return (
     <header className="absolute inset-x-0 top-0 z-50">
@@ -47,6 +54,7 @@ const Navbar: FC<Props> = ({ themeBtn, logo }) => {
             <Link
               key={item.name}
               href={item.href}
+              onClick={() => setMobileMenuOpen(true)}
               className="text-sm font-semibold leading-6 "
             >
               {item.name}
@@ -66,10 +74,13 @@ const Navbar: FC<Props> = ({ themeBtn, logo }) => {
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gradient-to-r from-rose-100 to-teal-100 dark:bg-gradient-to-b dark:from-gray-900 dark:to-gray-600 dark:text-white  px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link href="/" className="-m-1.5 p-1.5">
+            <button
+              onClick={() => onNavLinkClick("/")}
+              className="-m-1.5 p-1.5"
+            >
               <span className="sr-only">Pixelleum</span>
               {logo}
-            </Link>
+            </button>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 "
@@ -83,13 +94,13 @@ const Navbar: FC<Props> = ({ themeBtn, logo }) => {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
-                  <Link
+                  <button
+                    onClick={() => onNavLinkClick(item.href)}
                     key={item.name}
-                    href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  hover:bg-gray-50 dark:hover:bg-gray-950"
                   >
                     {item.name}
-                  </Link>
+                  </button>
                 ))}
               </div>
               <div className="py-6">{themeBtn}</div>
