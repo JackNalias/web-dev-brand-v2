@@ -1,3 +1,11 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Technology Stack | Cutting-Edge Tools for Custom Web Development",
+  description:
+    "Explore our technology stack, featuring cutting-edge tools and frameworks used in our custom web development process. Stay ahead with our skilled developers who leverage the latest technologies.",
+};
+
 export default function OurTechStackPage() {
   return (
     <div className="px-6 py-32 lg:px-8">

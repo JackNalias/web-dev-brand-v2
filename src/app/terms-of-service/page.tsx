@@ -1,4 +1,11 @@
 import { CheckCircleIcon } from "@heroicons/react/24/outline";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | Your Guide to a Successful Web Project",
+  description:
+    "Familiarize yourself with our terms of service to ensure a smooth collaboration for your custom web development project. Clear guidelines for a successful partnership.",
+};
 
 export default function TermsOfService() {
   return (

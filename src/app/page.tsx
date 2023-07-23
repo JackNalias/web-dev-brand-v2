@@ -1,11 +1,13 @@
 import ContactUs from "@/components/contact-us";
 import Hero from "@/components/hero";
-import {
-  BuildingOffice2Icon,
-  CheckIcon,
-  EnvelopeIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
+import { CheckIcon } from "@heroicons/react/24/outline";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Zespra | High-Quality Bespoke Websites",
+  description:
+    "Welcome to Zespra! We specialize in creating bespoke, high-quality websites tailored to your unique business needs. Drive success with our expert team of web developers.",
+};
 
 const features = [
   {

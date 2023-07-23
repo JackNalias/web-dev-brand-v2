@@ -1,11 +1,12 @@
 import ContactUs from "@/components/contact-us";
-import Hero from "@/components/hero";
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/react/24/outline";
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "About Zespra | Passionate Experts",
+  description:
+    "Learn more about Zespra and the passionate team behind it. Discover our commitment to delivering innovative web solutions that elevate your online presence.",
+};
 
 const values = [
   {

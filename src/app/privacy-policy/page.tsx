@@ -1,4 +1,11 @@
 import { CheckCircleIcon } from "@heroicons/react/24/outline";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Your Data and Security Matter to Us",
+  description:
+    "Read our comprehensive privacy policy to understand how we handle and protect your data. Trust our commitment to safeguarding your privacy.",
+};
 
 export default function PrivacyPolicyPage() {
   return (
