@@ -19,8 +19,8 @@ export default function TermsOfService() {
             Our Terms of Service
           </h1>
           <p className="mt-6 text-xl leading-8 ">
-            By accessing or using the services provided by Pixelleum, you agree
-            to be bound by these Terms of Service. Please read these terms
+            By accessing or using the services provided by Zespra, you agree to
+            be bound by these Terms of Service. Please read these terms
             carefully before using our website or engaging our services.
           </p>
           <div className="mt-10 max-w-2xl">
@@ -40,7 +40,7 @@ export default function TermsOfService() {
                   <strong className="font-semibold text-gray-900 dark:text-white">
                     Web Development Services:
                   </strong>{" "}
-                  Pixelleum provides website design, development, and related
+                  Zespra provides website design, development, and related
                   services to clients as described on our website or in a formal
                   agreement.
                 </span>
@@ -179,7 +179,7 @@ export default function TermsOfService() {
                   <strong className="font-semibold text-gray-900 dark:text-white">
                     Non-Disclosure:
                   </strong>{" "}
-                  Pixelleum agrees to keep all client information and project
+                  Zespra agrees to keep all client information and project
                   details confidential and will not disclose or share such
                   information with third parties without prior consent.
                 </span>
@@ -201,9 +201,9 @@ export default function TermsOfService() {
                   <strong className="font-semibold text-gray-900 dark:text-white">
                     Website Functionality:
                   </strong>{" "}
-                  Pixelleum strives to deliver high-quality websites, but we
-                  cannot guarantee that the website will be error-free,
-                  uninterrupted, or fully secure.
+                  Zespra strives to deliver high-quality websites, but we cannot
+                  guarantee that the website will be error-free, uninterrupted,
+                  or fully secure.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -216,7 +216,7 @@ export default function TermsOfService() {
                     Third-Party Services:
                   </strong>{" "}
                   We may use third-party tools or services to enhance website
-                  functionality. Pixelleum is not responsible for any issues or
+                  functionality. Zespra is not responsible for any issues or
                   damages caused by these third-party services.
                 </span>
               </li>
@@ -237,7 +237,7 @@ export default function TermsOfService() {
                   <strong className="font-semibold text-gray-900 dark:text-white">
                     Indirect Damages:
                   </strong>{" "}
-                  Pixelleum will not be liable for any indirect, incidental, or
+                  Zespra will not be liable for any indirect, incidental, or
                   consequential damages arising from the use of our services.
                 </span>
               </li>
@@ -365,7 +365,7 @@ export default function TermsOfService() {
               If you have any questions or concerns about these Terms of
               Service, please contact us at{" "}
               <strong className="font-semibold text-gray-900 dark:text-white">
-                support@pixelleum.com
+                business@zespra.com
               </strong>
               .
             </p>

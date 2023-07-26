@@ -92,14 +92,14 @@ export default function OurTechStackPage() {
             Conclusion
           </h2>
           <p className="mt-6">
-            At Pixelleum, our tech stack comprising Next.js, React, Tailwind
-            CSS, Node.js, and SQL fuels our passion for crafting custom websites
-            that surpass expectations. We believe that combining these
-            cutting-edge technologies allows us to deliver exceptional user
-            experiences, responsive designs, and high-performing web
-            applications for our valued clients. With a commitment to
-            innovation, efficiency, and user-centricity, we continue to empower
-            businesses to thrive in the digital era.
+            At Zespra, our tech stack comprising Next.js, React, Tailwind CSS,
+            Node.js, and SQL fuels our passion for crafting custom websites that
+            surpass expectations. We believe that combining these cutting-edge
+            technologies allows us to deliver exceptional user experiences,
+            responsive designs, and high-performing web applications for our
+            valued clients. With a commitment to innovation, efficiency, and
+            user-centricity, we continue to empower businesses to thrive in the
+            digital era.
           </p>
         </div>
       </div>

@@ -66,7 +66,7 @@ export default function AboutUsPage() {
                   Elevating Brands in the Digital Era
                 </h1>
                 <p className="relative mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300 sm:max-w-md lg:max-w-none">
-                  At Pixelleum, we are passionate about elevating brands in the
+                  At Zespra, we are passionate about elevating brands in the
                   digital era. We understand that the online landscape is
                   constantly evolving, and our mission is to help businesses
                   thrive in this dynamic environment. Through innovative web

@@ -35,7 +35,7 @@ const Navbar: FC<Props> = ({ themeBtn, logo }) => {
       >
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Pixelleum</span>
+            <span className="sr-only">Zespra</span>
             {logo}
           </Link>
         </div>
@@ -78,7 +78,7 @@ const Navbar: FC<Props> = ({ themeBtn, logo }) => {
               onClick={() => onNavLinkClick("/")}
               className="-m-1.5 p-1.5"
             >
-              <span className="sr-only">Pixelleum</span>
+              <span className="sr-only">Zespra</span>
               {logo}
             </button>
             <button

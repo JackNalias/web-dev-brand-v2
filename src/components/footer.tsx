@@ -30,7 +30,7 @@ export default function Footer() {
           ))}
         </nav>
         <p className="mt-10 text-center text-xs leading-5 text-gray-600 dark:text-white">
-          &copy; 2023 Pixelleum, Inc. All rights reserved.
+          &copy; 2023 Zespra, Inc. All rights reserved.
         </p>
       </div>
     </footer>

@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
             Our Privacy Policy
           </h1>
           <p className="mt-6 text-xl leading-8 ">
-            At Pixelleum, we are committed to protecting your privacy and
+            At Zespra, we are committed to protecting your privacy and
             safeguarding your personal information. This Privacy Policy explains
             how we collect, use, disclose, and manage your personal data when
             you interact with our website or use our services. By visiting our
@@ -249,7 +249,7 @@ export default function PrivacyPolicyPage() {
               If you have any questions, concerns, or requests regarding this
               Privacy Policy or your personal information, please contact us at{" "}
               <strong className="font-semibold text-gray-900 dark:text-white">
-                support@pixelleum.com
+                business@zespra.com
               </strong>
               .
             </p>
