@@ -16,7 +16,7 @@ const sendEmail = async (data: ContactUsFormData) => {
     from: data.email,
     to: "business@zespra.com",
     subject: data.subject,
-    text: data.message + "\n \n from: " + data.firstName + " " + data.lastName,
+    text: `${data.message}\n \n ${data.firstName} ${data.lastName} \n ${data.email}`,
   };
   const result = await transporter.sendMail(mailOptions);
   return result;
