@@ -32,7 +32,7 @@ const features = [
   },
   {
     name: "Brand Consistency",
-    description: "maintain a consistent brand identity throughout the site.",
+    description: "Maintain a consistent brand identity throughout the site.",
   },
   {
     name: "SEO Optimisation",
