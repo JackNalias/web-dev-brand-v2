@@ -9,8 +9,8 @@ import { useRouter } from "next/navigation";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about-us" },
-  { name: "Our process", href: "/#our-process" },
-  { name: "Contact Us", href: "/#contact-us" },
+  { name: "Our process", href: "/our-process" },
+  { name: "Contact Us", href: "/contact-us" },
 ];
 
 interface Props {
